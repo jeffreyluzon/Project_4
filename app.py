@@ -5,7 +5,7 @@ import requests
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
 params = {
   'start':'1',
-  'limit':'5',
+  'limit':'5000',
   'convert':'USD'
 }
 headers = {
